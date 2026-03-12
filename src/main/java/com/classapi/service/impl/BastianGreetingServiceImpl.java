@@ -14,8 +14,8 @@ public class BastianGreetingServiceImpl implements GreetingService {
 
     @Override
     public String greeting() {
-        log.info("¡Hola, soy Bastian!");
-        log.info("Este mensaje está en mi propio servicio");
+        //log.info("¡Hola, soy Bastian!");
+        //log.info("Este mensaje está en mi propio servicio");
         return "¡Hola, soy Bastian, y la hora de hoy es " + now() + "!";
     }
 }
