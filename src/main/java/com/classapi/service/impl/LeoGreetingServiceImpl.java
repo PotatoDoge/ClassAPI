@@ -12,6 +12,6 @@ import static java.time.LocalTime.now;
     @Override public String greeting(){
      log.info("Hola soy Leo!");
      log.info("Este mensaje es para probar mi servicio creado");
-     return "Q onda soy Leo y la fecha de hoy es: " + now();
+     return "Q onda soy Leo y la fecha de hoy es: " + now() + "!";
     }
 }
