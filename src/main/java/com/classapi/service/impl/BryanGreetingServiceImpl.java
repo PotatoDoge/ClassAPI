@@ -9,7 +9,7 @@ import static java.time.LocalTime.now;
 @Slf4j
 public class BryanGreetingServiceImpl {
     public String greeting(){
-        log.info("Que tal soy sech");
+        log.info("Que tal soy sechh");
         log.info("Este mensaje esta en mi porpio servicio");
         return "que tal soy sech y la hora de hoy es :" + now() + "";
     }
