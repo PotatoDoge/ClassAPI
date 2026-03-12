@@ -14,7 +14,7 @@ public class SinaiGreetingServiceImpl implements GreetingService {
     public String greeting(){
         log.info("¡Hola, soy ... y me faltó (y me falta todavía) piso jaja lol lmao (:'c)!");
         log.info("Este mensaje está en mi propio servicio");
-        return "¡Hola, Soy sinAI, y la hora de hoy es "+ now() + "!";
+        return "¡Hola, Soy sinAI, y la hora de hoy es "+ now() + "!"; //ho
     }
 
 
