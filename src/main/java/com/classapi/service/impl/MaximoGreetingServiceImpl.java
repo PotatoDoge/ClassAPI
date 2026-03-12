@@ -12,6 +12,6 @@ public class MaximoGreetingServiceImpl implements GreetingService {
     public String greeting() {
         log.info("¡Hola, soy Maximo!");
         log.info("Este mensaje está en mi propio servicio!!");
-        return "¡Hola, soy Bastian, y la hora de hoy es " + now() + "!";
+        return "¡Hola, soy Maximo, y la hora de hoy es " + now() + "!";
     }
 }
