@@ -16,6 +16,6 @@ public class RosendaGreetingServiceImpl implements GreetingService {
     public String greeting() {
         log.info("Hii, soy Rosenda");
         log.info("Este mensaje está en mi propio servicio");
-        return "Hii, soy Rosenda, y la hora de hoy es " + now() + "!";
+        return "Hiii, soy Rosenda, y la hora de hoy es " + now() + "!";
     }
 }
