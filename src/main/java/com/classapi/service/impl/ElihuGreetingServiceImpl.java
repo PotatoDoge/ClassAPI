@@ -13,7 +13,7 @@ public class ElihuGreetingServiceImpl implements GreetingService {
 
     @Override
     public String greeting() {
-        log.info("Ey muy buenas a todos, guapísimos aquí a Elihú");
+        log.info("Ey muy buenas a todos, guapísimos aquí Elihú");
         log.info("Este mensaje es propio de mi servicio de bienvenida.");
         return "Saludos a todos, mi nombre es Elihú y la hora de hoy es " + now() +".";
     }
