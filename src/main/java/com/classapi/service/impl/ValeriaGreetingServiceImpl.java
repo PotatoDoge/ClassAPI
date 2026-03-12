@@ -13,6 +13,6 @@ public class ValeriaGreetingServiceImpl implements GreetingService {
     public String greeting() {
         log.info("Wenaas, soi vAleRia!");
         log.info("Este mensaje fue creado nomas para testear este coso");
-        return "Vale Ria aqui y ahorita son las " + now() + ", pongase a chambear!";
+        return "Vale Ria aqui y ahorita son las " + now() + ", pongase A chambear!";
     }
 }
