@@ -10,7 +10,7 @@ import static java.time.LocalTime.now;
 
 @Service("bastian")
 @Slf4j
-public class BastianGreetingServiceImpl implements GreetingService {
+public class NicolasGreetingServicelmpl implements GreetingService {
 
     @Override
     public String greeting() {
