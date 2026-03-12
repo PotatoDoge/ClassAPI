@@ -11,7 +11,7 @@ public class MarianaGreetingServiceImpl implements GreetingService {
     @Override
     public String greeting() {
         log.info("hola soy mariana angelica :)");
-        log.info("no se q poner en este mensaje");
+        log.info("no se q poner en este mensaje jaja");
         return "hola soy mariana y amo a rauw <3";
     }
 }
