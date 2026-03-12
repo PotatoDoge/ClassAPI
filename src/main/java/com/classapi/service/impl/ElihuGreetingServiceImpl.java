@@ -17,5 +17,4 @@ public class ElihuGreetingServiceImpl implements GreetingService {
         log.info("Este mensaje es propio de mi servicio de bienvenida.");
         return "Saludos a todos, mi nombre es Elihú y la hora de hoy es " + now() +".";
     }
-
 }
