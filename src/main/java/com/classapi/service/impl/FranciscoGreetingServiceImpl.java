@@ -13,6 +13,6 @@ public class FranciscoGreetingServiceImpl implements GreetingService {
     public String  greeting(){
         log.info("Hola soy Francisco");
         log.info("Este mensaje esta en mi propio servidor");
-        return "Hola, soy Franciso, y la hora de hoy es "+now() + "!";
+        return "Hola, soy Franciso, y la hora de hoy ess "+now() + "!";
     }
 }
